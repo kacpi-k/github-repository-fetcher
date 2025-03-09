@@ -10,20 +10,20 @@ It filters out forked repositories and retrieves branch details along with the l
 ## How to Run the Application
 1. Clone the repository:
 ```sh
-    git clone https://github.com/kacpi-k/github-repository-fetcher.git
-    cd github-repository-fetcher
+git clone https://github.com/kacpi-k/github-repository-fetcher.git
+cd github-repository-fetcher
 ```
 
 2. Build the project:
 ```sh
-  ./mvnw clean package
+./mvnw clean package
 ```
 3. Run the application in development mode:
 ```sh
-  ./mvnw quarkus:dev
+./mvnw quarkus:dev
 ```
 4. The api will be available at:
-```http
+```
 http://localhost:8080
 ```
 
@@ -142,7 +142,7 @@ If the requested GitHub user does not exit, the API returns:
 ## Running Tests
 To execute the integration tests, run:
 ```sh
-  ./mvnw test
+./mvnw test
 ```
 
 ## Author
